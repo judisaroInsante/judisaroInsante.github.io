@@ -1,0 +1,35 @@
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.mainContainer__search{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.mainContainer__search > p{
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.parrafo{
+  padding-left: 50px;
+  padding-bottom: 10px;
+  color: blueviolet;
+}
+
+.footer{
+  margin-top: 50px;
+  display: flex;
+  background-color: black;
+  height: 150px;
+  justify-content: flex-end;
+}
+.footer > p {
+  align-self: flex-end;
+  color: white; 
+  text-align: right;
+  margin: 10px;
+}

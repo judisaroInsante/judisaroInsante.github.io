@@ -1,0 +1,44 @@
+.spcontainer{
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.byname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.byname__result{
+    background-color: aliceblue;
+    margin: 10px;
+    text-align: center;
+}
+.byname__result > p{
+    padding: 5px;
+}
+
+.byname button {
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 3px;
+}
+
+#btngrup{
+    margin: 30px;
+}
+#btngrup > button{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    border: 1px solid gray;
+}

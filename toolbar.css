@@ -1,0 +1,18 @@
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.header > p {
+    color: white;
+    margin: 10px;
+}
+
+.header .header__title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header .header__text{
+    font-size: 20px;
+}

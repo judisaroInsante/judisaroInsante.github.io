@@ -1,0 +1,71 @@
+.list__container{
+    width: 20%;
+}
+
+.list__container2{
+    width: 20%;  
+    margin-right: 10px;
+}
+
+.list__container2 > h3 {
+    text-align: right;
+}
+
+ul > li{
+    list-style: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul > li{
+    list-style: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.list__grand{
+    background-color: Navy;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.list__uncle{
+    background-color: Aqua;
+    color: black;
+    font-weight: 400;
+    border: 0px;
+}
+
+.list__parents{
+    background-color: Aqua;
+    color: black;
+    font-weight: 500;
+    border: 0px;
+    font-weight: 500px;
+}
+
+.list__cousin{
+    background-color: GhostWhite;
+    color: gray;
+    font-weight: 100;
+}
+
+.list__brother{
+    background-color: GhostWhite;
+    color: gray;
+    font-weight: 100;
+    font-weight: 500;
+}
+.list__me{
+    background-color: orange;
+    color: black;
+    font-weight: 500;
+}
+
+.list__titles{
+    margin: 10px;
+    font-style: italic;
+}
